@@ -26,6 +26,7 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.17rem;
   color: #11999E;
 }
 p{
@@ -119,13 +120,13 @@ margin: 40px auto 60px auto;
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
+  background-image: linear-gradient(top, bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.17rem;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -135,13 +136,14 @@ margin: 40px auto 60px auto;
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(top, bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
 a {
   text-decoration: none;
   margin: 10px 20px;;
   color: #11999E;
+  font-size: 1.17rem;
   font-family: 'Montserrat', sans-serif;
 }
 a:hover{
